@@ -17,6 +17,7 @@ h1 {
 	font-weight: 300;
 	color: black;
 	font-weight: bold;
+	font-family:Arial, Helvetica, sans-serif;
 }
 h2 {
 	font-size: 2.3em;
@@ -26,24 +27,15 @@ h2 {
 	text-align: left;
 	font-weight: bold;
     background-color:#666;
+	font-family:Arial, Helvetica, sans-serif;
 }
 article {
     display: inline-flex;
     text-align: left;
 	width: 800px;
-  height: 170px
-  	
-
-}
-p {
-	margin-bottom: 0;
-    margin-left: px;
-    margin-right: auto;
-    margin-top: 0;
-    text-align: justify;
-	display: inline-block;
-}
-
+	height: 170px;
+	margin-right: 150px;
+  }
 img {
 	max-width: 150px;
 	height: 150px;
@@ -51,3 +43,179 @@ img {
 	margin-left: 50px;
 }
 
+p {
+	margin-bottom: 0;
+    margin-left: px;
+    margin-right: auto;
+    margin-top: 0;
+    text-align: justify;
+	display: inline-block;
+	font-family:Arial, Helvetica, sans-serif;
+}
+caption{
+	font-size: 25px;
+    color: black;
+	line-height: 1.3em;
+	margin: 15px 0;
+	text-align: center;
+	font-weight: bold;
+	font-family:Arial, Helvetica, sans-serif;
+   
+}
+
+.letras1 {
+	text-align: center;
+	text-align: left;
+	font-size: 20px;
+	table-layout: fixed;
+	width: 60%;
+	font-weight: bold;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.cool-gray {
+	color: #8C92AC;
+}
+.warm-gray {
+	color: #D3D3D3;
+}
+.amber {
+	color: #FFBF00 ;
+}
+.green {
+	color: green ;
+}
+.cyan {
+	color: cyan ;
+}
+.red {
+	color: red ;
+}
+.yellow{
+	color: yellow ;
+}
+.emerald{
+	color: #50C878;
+}
+.sky{
+	color: #87ceeb;
+}
+.orange{
+	color: orange;
+}
+.lime{
+	color: lime;
+}
+.teal{
+	color: teal;
+}
+.fuchsia {
+	color: fuchsia;
+}
+.pink{
+	color: pink;
+}
+.rose{
+	color: f29cb7;
+}
+.blue-gray{
+	color: blue gray;
+}
+.purple{
+	color: purple;
+}
+.violet{
+	color: violet;
+}
+.indigo{
+	color: indigo;
+}
+.blue{
+	color: blue;
+}
+
+.fondo2 {
+	text-align: left;
+	
+	font-size: 20px;
+	table-layout: fixed;
+	width: 60%;
+	height: 60%;
+	font-family:Arial, Helvetica, sans-serif;
+	color: white;
+	border: none;
+	border-collapse: collapse;
+}
+.bluegray1 {
+	background-color: black;
+}
+
+.coolgray1 {
+	background-color: #8C92AC
+}
+.warm-gray1 {
+	background-color: grey;
+}
+.amber1 {
+	background-color:#ffbf00;
+}
+.green1 {
+	background-color: green;
+}
+.gray1 {
+	background-color: gray;
+}
+.red1 {
+	background-color: red;
+}
+.yellow1 {
+	background-color: yellow;
+}
+.emerald1 {
+	background-color: #50C878;
+}
+.truegray1 {
+	background-color: #949494;
+}
+.orange1 {
+	background-color: orange;
+}
+.lime1 {
+	background-color: lime;
+}
+.teal1 {
+	background-color: teal;
+}
+.fuchsia1 {
+	background-color: fuchsia;
+}
+.pink1 {
+	background-color: pink;
+}
+.rose1 {
+	background-color: #F33A6A;
+}
+.purple1 {
+	background-color: purple;
+}
+.violet1 {
+	background-color: violet;
+}
+.indigo1 {
+	background-color: indigo;
+}
+.blue1 {
+	background-color: blue;
+}
+.sky1 {
+	background-color: skyblue;
+}
+.cyan1 {
+	background-color: cyan;
+}
+
+
+.replica {
+	display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+}
